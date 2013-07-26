@@ -32,6 +32,20 @@
 	padding: 1% 1% 1.5% 1%;
 	opacity:0.7;
   	filter:alpha(opacity=70); /* For IE8 and earlier */
+	margin:0%;
+}
+
+#disclaimer {
+	position:absolute;
+	left:0.4%;
+	top:0.0%;
+	font-size: 0.8em;
+	color:white;
+	font-family:"Century Gothic";
+	z-index: 23;
+	font-weight: bold;
+	opacity:0.9;
+  	filter:alpha(opacity=90); /* For IE8 and earlier */
 }
 
 #linkedin {
@@ -52,32 +66,50 @@
 	font-weight: bold;
 	color: #ffffff;
 	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	width:80%;
+	width:75%;
 	height:95%;
 	z-index: 10;
 	margin-top: 10%;
-	margin-left: 10%;
+	margin-left: 12.5%;
 	background-color:#333333;
-	padding: 0.5% 0% 6% 2%;
+	padding: 0.5% 0% 8% 2%;
 	opacity:0.85;
   	filter:alpha(opacity=85); /* For IE8 and earlier */
 }
 
-center h1 {
-	padding:0% 1% 1% 1%;
+.center img:hover {
+	/*The first two lines of code here are borrowed from http://www.css3.info/preview/box-shadow/. It allows it to be compatible in all versions of Firefox, Chrome, and Safari. IE is not supported for now.*/
+	-moz-box-shadow::4px 4px 4px #ffffff;
+	-webkit-box-shadow:4px 4px 4px #ffffff;
+	box-shadow:4px 4px 4px #ffffff;
+}
+
+#linkedin img:hover {
+	-moz-box-shadow::4px 4px 4px #ffffff;
+	-webkit-box-shadow:4px 4px 4px #ffffff;
+	box-shadow:4px 4px 4px #ffffff;	
+}
+
+/*.center h1 {
+	padding:2% 1% 1% 1%;
 	position: relative;	
+}*/
+
+.project h1 {
+	font-family:"Century Gothic";
 }
 
 .center p {
 	position:relative;
 	font-size:1em;
 	color: #ffffff;
-	padding: 10px 3px 0px 10px;
+	padding: 5px 3px 0px 10px;
 	margin-right: 0px;
 	margin-top: 0px;
 	float:left;
 	display:inline-block;
 	width: 70%;
+	font-family:"Century Gothic";
 }
 
 .center img { 
@@ -85,7 +117,7 @@ center h1 {
 	margin-left:auto;
 	margin-right:auto;
 	display:inline-block;
-	padding: 0% 0% 0% 0%;
+	padding: 0% 0% 0% 1%;
 	width: 26%;
 	height: 8em;
 }
@@ -93,5 +125,11 @@ center h1 {
 #monogram {
 	position:fixed;
 	right:0.5%;
-	bottom:0%;	
+	bottom:0%;
+}
+
+#monogram:hover {
+	-moz-box-shadow::0px 0px #ffffff;
+	-webkit-box-shadow:0px 0px #ffffff;
+	box-shadow:0px 0px #ffffff;
 }
