@@ -2,9 +2,9 @@
 /* CSS Document */
 
 body {
-	background-image:url('http://i.imgur.com/67xTl46.jpg');
+	background-image:url('http://i.imgur.com/CBatBDs.jpg');
 	background-attachment: fixed;
-	background-size:cover;
+	background-size:100% 100%;
 }
 
 #header {
@@ -62,7 +62,7 @@ body {
 	margin-top: 7em;
 	margin-left: 11.5%;
 	background-color:#333333;
-	padding: 3px 2% 5% 2%;
+	padding: 3px 2% 0% 2%;
 	opacity:0.85;
   	filter:alpha(opacity=85); /* For IE8 and earlier */
 }
@@ -108,7 +108,7 @@ body {
 	float:right;
 	padding: 0% 0% 0% 0%;
 	width: 26%;
-	height: 8em;
+	height: 12em;
 }
 
 #monogram {
